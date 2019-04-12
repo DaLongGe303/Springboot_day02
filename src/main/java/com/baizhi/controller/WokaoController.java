@@ -12,6 +12,7 @@ public class WokaoController {
 
     @RequestMapping("selectall")
     public String select(){
-    return null;
+        System.out.println("==========");
+        return null;
     }
 }
