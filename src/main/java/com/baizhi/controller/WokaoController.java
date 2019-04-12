@@ -9,5 +9,8 @@ public class WokaoController {
     @Autowired
     private WokaoDao wokaoDao;
 
-
+    @RequestMapping("selectall")
+    public String select(){
+    return null;
+    }
 }
